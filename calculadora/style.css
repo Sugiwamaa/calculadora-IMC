@@ -1,0 +1,55 @@
+body {
+  background: url(pessego.jpg);
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #730000;
+  border-radius: 10px;
+  position: relative;
+  top: 300px;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #efafff;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.5 ease;
+}
+
+button:hover {
+  background-color: #f5aaff72;
+}
+
+#result {
+  margin-top: 320px;
+  padding-left: 740px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 420px;
+  border: 5px solid #730000;
+  border-radius: 10px;
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
